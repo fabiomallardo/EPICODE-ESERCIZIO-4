@@ -1,0 +1,339 @@
+#container {
+    display: flex;
+    border-bottom: 1px solid #F5F5F5;
+    margin-bottom: 20px;
+}
+
+.head1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+nav {
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+
+header img {
+    width: 160px;
+}
+
+.bottoni {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 970px;
+    gap: 34px;
+    margin-bottom: 20px;
+    color: #6B6B6B;
+}
+
+.bottoni span {
+    margin-left: -24px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.cerca {
+    width: 188px;
+    height: 35px;
+    background: #F9F9F9;
+    position: relative;
+    border: none;
+    border-radius: 30px;
+    color: #6B6B6B;
+}
+
+.cerca i {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cerca span {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.perte {
+    background-color: white;
+    width: 650px;
+    height: 47px;
+    margin-left: 190px;
+    display: flex;
+    align-items: center;
+    font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    border-bottom: 1px solid #F5F5F5;
+}
+.perte span {
+    margin-left: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 189px;
+}
+
+.primo {
+    margin-top: 50px;
+    display: flex;
+}
+
+.primo span {
+    margin-left: 10px;
+}
+
+.primodue p {
+    margin-top: -10px;
+    color: #6B6B6B;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.container2 {
+    width: 650px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F5F5F5;
+}
+.primotre i{
+    margin-left: 5px;
+    color: #6B6B6B;
+}
+.primotre span {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: small;
+}
+.primoquattro {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 245px;
+    color: #6B6B6B;
+}
+.primoquattro i {
+margin-left: -50px;
+}
+.primafoto {
+    margin-top: -168px;
+    margin-left: 100px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.primafoto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: inset(1px 1px 50px 01px);
+}
+
+aside {
+    margin-left: 1000px;
+    margin-top: -2500px;
+    display: flex;
+    flex-direction: column;
+}
+#container3 {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #F5F5F5;
+    font-family:"Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif
+}
+.titolotre {
+    margin-left: 30px;
+}
+.titolotre span {
+font-size: small;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.titolotre h3 {
+    font-size: medium;
+}
+.titolotre p {
+    color: green;
+}
+.titolotre1{
+    margin-left: 30px;
+    margin-right: 200px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+aside h4 {
+    margin-left: 30px;
+}
+.cerca1 {
+    width: 40px;
+    height: 26px;
+    background: #F9F9F9;
+    border: none;
+    border-radius: 30px;
+    color:grey;
+
+}
+.cerca1 span {
+    margin-left: 10px;
+    color: black;
+}
+.cerca2 {
+    width: 85px;
+    height: 26px;
+    background: #F9F9F9;
+    border: none;
+    border-radius: 30px;
+    color:grey;
+
+}
+.cerca2 span {
+    margin-left: 10px;
+    color: black;
+}
+.cerca3 {
+    width: 65px;
+    height: 26px;
+    background: #F9F9F9;
+    border: none;
+    border-radius: 30px;
+    color:grey;
+
+   
+}
+.cerca3 span {
+    margin-left: 10px;
+    color: black;
+}
+.cerca4 {
+    width: 65px;
+    height: 26px;
+    background: #F9F9F9;
+    border: none;
+    border-radius: 30px;
+    color:grey;
+
+    
+}
+.cerca4 span {
+    margin-left: 10px;
+    color: black;
+}
+.cerca5 {
+    width: 150px;
+    height: 26px;
+    background: #F9F9F9;
+    border: none;
+    border-radius: 30px;
+    color:grey;
+
+}
+.cerca5 span {
+    margin-left: 10px;
+    color: black;
+}
+.cerca6 {
+    width: 55px;
+    height: 26px;
+    background: #F9F9F9;
+    border: none;
+    border-radius: 30px;
+    color:grey;
+
+}
+.cerca6 span {
+    margin-left: 10px;
+    color: black;
+}
+.titolotre2 p{
+    margin-top: 10px;
+    margin-right: 90px;
+    color: green;
+
+}
+.titolotre3 {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.titolotre3 i{
+    margin-top: 4px;
+    margin-right: 5px;
+
+}
+.titolotre3 h6 {
+    margin-left: -110px;
+}
+.titolotre3 button {
+    background: white;
+    border-color: black;
+    border-radius: 30px;
+    width: 60px;
+    height: 30px;
+    margin-left: 50px;
+}
+.titolotre4 {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+
+}
+.titolotre4 i{
+    margin-top: 4px;
+    margin-right: 5px;
+}
+.titolotre4 h6 {
+    margin-left: -126px;
+    margin-top: 50px;
+}
+.titolotre4 button {
+    background: white;
+    border-color: black;
+    border-radius: 30px;
+    width: 60px;
+    height: 30px;
+    margin-left: 45px;
+}
+.titolotre5 {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+
+}
+.titolotre5 i{
+    margin-top: 4px;
+    margin-right: 5px;
+}
+.titolotre5 h6 {
+    margin-left: -126px;
+    margin-top: 50px;
+}
+.titolotre5 button {
+    background: white;
+    border-color: black;
+    border-radius: 30px;
+    width: 60px;
+    height: 30px;
+    margin-left: 55px;
+}
+.titolotre6 p {
+    margin-left: 30px;
+    color: green;
+}
+.titolo7 p {
+    margin-left: 30px;
+    color: #6B6B6B;
+    font-size: small;
+}
+.titolo8 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    gap: 3px;
+}
+.titolo8 span {
+    color: #6B6B6B;
+    font-size: 10px; 
+}
